@@ -59,7 +59,7 @@ const createInternCard = function (intern) {
 
 // Pushing the array information to the page
 
-createdHTML = (data) => {
+createHTML = (data) => {
   //card array for different employees
   cardArray = [];
 
@@ -132,3 +132,5 @@ const createTeamPage = function (userEmployees) {
   </html>
 `;
 }
+
+module.exports = createHTML;

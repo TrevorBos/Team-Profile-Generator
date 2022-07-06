@@ -3,7 +3,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 
 // This is where all of the variables are going to be placed.
-const createdHTML = require("./src/createHTML.js");
+const createHTML = require("./src/createHTML");
 
 // Variables for team members and team array
 const Manager = require("./lib/Manager");
@@ -219,7 +219,7 @@ const writeFile = data => {
 addManagerToTeam()
   .then(addEmployeesToTeam)
   .then(workTeamArray => {
-    return generateHTML(workTeamArray);
+    return createHTML(workTeamArray);
   })
   .then(teamHTML => {
     return writeFile(teamHTML);
