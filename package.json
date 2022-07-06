@@ -4,5 +4,25 @@
   },
   "devDependencies": {
     "jest": "^28.1.2"
-  }
+  },
+  "name": "teamprofilegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorBos/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorBos/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/TrevorBos/Team-Profile-Generator#readme",
+  "description": ""
 }
