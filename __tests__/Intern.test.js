@@ -26,5 +26,5 @@ test("This gets the school information", () => {
 test("This gets the role information", () => {
     const intern = new Intern("Trevor", 117, "trevor.bos@outlook.com", "UofT");
     
-    expect(intern.getRoleInfo()).toEqual("Intern");
+    expect(intern.getRole()).toEqual("Intern");
 });
